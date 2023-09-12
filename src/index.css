@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #da4167;
+  --light: #9bbac2;
+  --dark: #03232c;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 768px;
+  width: 100%;
+  margin: auto;
+  padding: 1.5rem;
+}

@@ -1,0 +1,29 @@
+header {
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span {
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+nav ul li a {
+  color: var(--light);
+  text-decoration: none;
+}

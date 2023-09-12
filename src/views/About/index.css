@@ -1,0 +1,15 @@
+.container {
+  display: block;
+}
+
+.about {
+  color: var(--dark);
+}
+
+.about h1 {
+  text-align: center;
+}
+
+.about img {
+  height: 300px;
+}
